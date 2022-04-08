@@ -1,6 +1,8 @@
 # rplaceDataParser
 Parses the Raw data from reddit's r/place into an easy to use data structure that is only 3Gb in size vs the original 20Gb
 
+Note that the hash of the users is dropped
+
 See example code on how to parse the raw data
 
 Also includes a timelapse generator (under development) and other features
