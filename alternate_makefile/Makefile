@@ -15,7 +15,7 @@ $(EXENAME) : output_msg $(OBJS)
 
 # main:
 	
-main.o : main.cpp DataParser.h TimelapseGenerator.h
+main.o : main.cpp DataParser.h
 	$(CXX) $(CXXFLAGS) main.cpp
  
 # DataParser:
