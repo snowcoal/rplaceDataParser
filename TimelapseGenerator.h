@@ -4,11 +4,14 @@
 #include <string>
 #include <stdlib.h>
 
+#include "DataParser.h"
+
 using namespace std;
 
 class TimelapseGenerator
 {
     public:
-        TimelapseGenerator();
+        TimelapseGenerator(DataParser* parser);
+        ~TimelapseGenerator();
     private:
 };

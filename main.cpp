@@ -26,5 +26,7 @@ int main(){
     // load the parsed data from the file (done instead of parsing the data again)
     parser.loadData(output);
 
+    TimelapseGenerator tm(&parser);
+
     return 0;
 }
