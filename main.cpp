@@ -18,10 +18,10 @@ int main(){
     // create a DataParser object
     DataParser parser;
 
-    // parse the raw data (takes a while and should only be done one time ever)
-    parser.parseRawData(filename);
-    // dump the parsed data into an output file
-    parser.saveData(output);
+    // // parse the raw data (takes a while and should only be done one time ever)
+    // parser.parseRawData(filename);
+    // // dump the parsed data into an output file
+    // parser.saveData(output);
 
     // load the parsed data from the file (done instead of parsing the data again)
     parser.loadData(output);
