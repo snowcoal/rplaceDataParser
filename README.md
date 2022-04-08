@@ -10,7 +10,7 @@ Also includes a timelapse generator (under development) and other features
 timelapse generator currently requires openCV to be installed, but the dataParser itself does not depend on anything.
 
 IF timelapse generator is NOT wanted, replace the default makefile with the one located in the alternate_makefile, which will
-ONLY compile the parser and main.cpp
+ONLY compile the parser and main.cpp. Also, do not include DataParser.h in main.cpp
 
 # example
 
